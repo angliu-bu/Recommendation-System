@@ -35,7 +35,6 @@ print (server.getFromInventory(123))
 server.getAction(actionX1)
 recX1_afteraction = server.renderRecommendation(reqX1)
 print(recX1_afteraction)
-exit()
 
 # update offline models
 server.increment()
